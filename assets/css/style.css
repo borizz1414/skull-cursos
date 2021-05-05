@@ -1,0 +1,71 @@
+body {
+  background-image: url("../img/background.svg");
+  background-size: cover;
+  background-color: #0581c6;
+  font-family: "league-spartan";
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* FONTS */
+@font-face {
+  font-family: "league-spartan";
+  src: url("../fonts/LeagueSpartan-Bold.otf");
+}
+@font-face {
+  font-family: "lato";
+  src: url("../fonts/Lato-Regular.ttf");
+  
+}
+input[type=text]:focus{
+    border:1px solid red;
+  }
+input[type=text]{
+    background: #F9F9F9;
+    border: 0;
+    color: #B3B3B3;
+    padding: 10px;
+}
+
+.container {
+  height: 100%;
+}
+.title>h1{
+    color:#FCAA24;
+}
+.title>h4{
+    color:white;
+}
+.card{
+    height:330px;
+    width: 660px;
+    text-align: center;
+}
+.card-body>.card-title>h1{
+    color:#FCAA24;
+}
+.card-body>.card-title>p{
+    color:#3A3A3A;
+    font-family: 'lato';
+}
+.btn-submit{
+    border: 0;
+    padding: 10px 0px;
+    background: #FCAA24;
+    color: white;
+    width: 160px;
+    margin: 6px;
+}
+/* CONFIRM EMAIL STYLES */
+.card-confirm-email{
+    height: 661px;
+}
+.btn-ws{
+    background: #52C139;
+    color: white;
+    border: 0;
+    width: 80%;
+    padding: 20px;
+    border-radius: 12px;
+}
