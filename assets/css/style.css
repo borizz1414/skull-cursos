@@ -53,6 +53,12 @@ input[type=text]{
   color:#0581C6;
 
 }
+.logo-skull{
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 20px;
+
+}
 .btn-submit{
     border: 0;
     padding: 10px 0px;
