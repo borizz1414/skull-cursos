@@ -49,6 +49,10 @@ input[type=text]{
     color:#3A3A3A;
     font-family: 'lato';
 }
+.card-body>.card-title>p>span{
+  color:#0581C6;
+
+}
 .btn-submit{
     border: 0;
     padding: 10px 0px;
