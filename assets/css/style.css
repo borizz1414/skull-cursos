@@ -88,13 +88,13 @@ input[type="text"] {
   height: 90%;
 }
 .container-background {
-  background-image: url("../img/background.svg");
+  /* background-image: url("../img/background.svg"); */
   height: 88%;
   background-size: cover;
 }
 .container-trazado {
   overflow: hidden;
-  background-image: url("../img/Trazado39.svg");
+  background-image: url("../img/bg_1.jpg");
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -152,6 +152,8 @@ input[type="text"] {
 }
 .card-inicio {
   height: 320px;
+  margin-bottom: 20px !important;
+  min-height: max-content;
   z-index: 1;
   border: 4px solid #fcaa24;
 }
@@ -161,12 +163,8 @@ input[type="text"] {
 .img-calendar {
   z-index: 0;
   position: absolute;
-  /* width: 42%;
-  height: 155px;
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-image: url("../img/Grupo91.svg"); */
+  margin-left: -1px;
+  margin-top: -1px;
 }
 .date {
   height: 140px;
@@ -205,4 +203,189 @@ li::before {
 }
 li > span {
   color: #fcaa24;
+}
+.quiero-participar{
+  height: 300px;
+  width: 100%;
+  background-image: url("../img/fondo-ingles.png");
+  background-size:cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color:white;
+}
+.quiero-participar>h1{
+  width: 80%;
+}
+.teacher{
+  height: 460px;
+}
+.text-axel{
+  padding: 20px;
+  font-size: 16px;
+  width: 70%;
+  text-align: justify;
+}
+.line-blue{
+  width: 80px;
+  border-top: 4px solid #006AB0;
+}
+.img-teacher>img{
+  width: 80%;
+}
+.img-teacher{
+  height: 320px;
+  margin-bottom: 60px;
+}
+.text-axel>p{
+  font-family: 'lato';
+}
+footer{
+  padding: 12px;
+  position: relative;
+  bottom: -28px;
+  width: 100%;
+  height: 60px;
+  background: #006ab0;
+  margin-top: 60px;
+  display: flex;
+}
+.text-footer{
+  margin-right: 20px;
+  font-family: 'lato';
+  color:white;
+}
+/* MEDIA QUERIES */   
+@media screen and (max-width:991px){
+  .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.container-banner > .text-banner,
+.container-banner > .img-banner {
+  width: 100% !important;
+}
+.w-90 {
+  width: 100% !important;
+}
+}
+@media screen and (max-width:768px){
+  .text-banner {
+    padding: 20px;
+    text-align: center;
+  }
+  .container-cards-inicio{
+      padding: 4px !important;
+  }
+  :root{
+    font-size: 16px;
+  }
+  .title-card-inicio{
+    padding: 2px !important;
+    text-align: right;
+    font-size: 18px;
+  }
+  .text-axel {
+
+  width: 100%;
+  }
+  .img-teacher>img {
+    width: 95%;
+  }
+  .title-card-inicio> h1{
+    font-size: 18px;
+    margin-left: 40px;
+  }
+  .title-card-inicio> h4{
+    margin-left: 54px;
+  }
+  .date{
+    text-align: center;
+    font-size: 20px;
+  }
+  .row-list{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: justify;
+  }
+  .col-sm-12{
+    padding: 0;
+  }
+  .height-col__dia3>.card-inicio, .height-col__dia3 {
+    height: 420px !important;
+}
+.container-calendar{
+  height: 122px;
+}
+.ult-card{
+  height: 360px;
+}
+.height-col{
+  height: 360px;
+  justify-content: center !important;
+}
+.row-ult{
+  margin-top:84px !important;
+}
+}
+@media screen and (max-width:480px){
+  .text-banner {
+    padding: 20px;
+    text-align: center;
+  }
+  .container-cards-inicio{
+      padding: 4px !important;
+  }
+  :root{
+    font-size: 12px;
+  }
+  .title-card-inicio{
+    padding: 2px !important;
+    text-align: right;
+    font-size: 18px;
+  }
+  .text-axel {
+
+  width: 100%;
+  }
+  .img-teacher>img {
+    width: 95%;
+  }
+  .title-card-inicio> h1{
+    font-size: 18px;
+    margin-left: 40px;
+  }
+  .title-card-inicio> h4{
+    margin-left: 54px;
+  }
+  .date{
+    text-align: center;
+    font-size: 20px;
+  }
+  .row-list{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: justify;
+  }
+  .col-sm-12{
+    padding: 0;
+  }
+  .height-col__dia3>.card-inicio, .height-col__dia3 {
+    height: 420px !important;
+}
+.container-calendar{
+  height: 122px;
+}
+.ult-card{
+  height: 360px;
+}
+.height-col{
+  height: 360px;
+  justify-content: center !important;
+}
+.row-ult{
+  margin-top:84px !important;
+}
 }
