@@ -1,7 +1,4 @@
 body {
-  background-image: url("../img/background.svg");
-  background-size: cover;
-  background-color: #0581c6;
   font-family: "league-spartan";
   height: 100vh;
   margin: 0;
@@ -16,69 +13,116 @@ body {
 @font-face {
   font-family: "lato";
   src: url("../fonts/Lato-Regular.ttf");
-  
 }
-input[type=text]:focus{
-    border:1px solid red;
-  }
-input[type=text]{
-    background: #F9F9F9;
-    border: 0;
-    color: #B3B3B3;
-    padding: 10px;
+input[type="text"]:focus {
+  border: 1px solid red;
 }
-
-.container {
+input[type="text"] {
+  background: #f9f9f9;
+  border: 0;
+  color: #b3b3b3;
+  padding: 10px;
+}
+.container-fluid {
+  width: 100%;
   height: 100%;
 }
-.title>h1{
-    color:#FCAA24;
+.container-main {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/background.svg");
+  background-size: cover;
+  background-color: #0581c6;
 }
-.title>h4{
-    color:white;
+.title > h1 {
+  color: #fcaa24;
 }
-.card{
-    height:330px;
-    width: 660px;
-    text-align: center;
+.title > h4 {
+  color: white;
 }
-.card-body>.card-title>h1{
-    color:#FCAA24;
+.card {
+  height: 330px;
+  width: 660px;
+  text-align: center;
 }
-.card-body>.card-title>p{
-    color:#3A3A3A;
-    font-family: 'lato';
+.card-body > .card-title > h1 {
+  color: #fcaa24;
 }
-.card-body>.card-title>p>span{
-  color:#0581C6;
-
+.card-body > .card-title > p {
+  color: #3a3a3a;
+  font-family: "lato";
 }
-.logo-skull{
+.card-body > .card-title > p > span {
+  color: #0581c6;
+}
+.logo-skull {
   bottom: 0;
   position: absolute;
   margin-bottom: 20px;
-
 }
-.btn-submit{
-    border: 0;
-    padding: 10px 0px;
-    background: #FCAA24;
-    color: white;
-    width: 160px;
-    margin: 6px;
+.btn-submit {
+  border: 0;
+  padding: 10px 0px;
+  background: #fcaa24;
+  color: white;
+  width: 160px;
+  margin: 6px;
 }
 /* CONFIRM EMAIL STYLES */
-.card-confirm-email{
-    height: 661px;
+.card-confirm-email {
+  height: 661px;
 }
-.btn-ws{
-    background: #52C139;
-    color: white;
-    border: 0;
-    width: 80%;
-    padding: 20px;
-    border-radius: 12px;
+.btn-ws {
+  background: #52c139;
+  color: white;
+  border: 0;
+  width: 80%;
+  padding: 20px;
+  border-radius: 12px;
 }
-.card-title>h5{
-  color:#3A3A3A;
+.card-title > h5 {
+  color: #3a3a3a;
+}
+/* STYLES INICIO */
+.container-background {
+  background-image: url("../img/background.svg");
+  height: 84%;
+  background-size: cover;
+}
+.container-trazado {
+  overflow: hidden;
+  background-image: url("../img/Trazado39.svg");
+  width: 100%;
+  height: 660px;
+  background-size: cover;
+}
+.img-banner{
+  position: relative;
+}
+.img-banner>img{
+  position: absolute;
+  top:38px
+}
+.text-banner{
+  padding: 100px;
+}
+.w-45{
+  width: 220px;
+}
+.text-banner>p{
+  font-family: 'lato';
+  font-size: 18px;
+}
+.text-banner>h3,.text-banner>h4,.text-banner>p{
+  color:white;
+}
+.text-banner>h1{
+  color:#fcaa24
+}
+.container-banner > .text-banner,
+.container-banner > .img-banner {
+  width: 50%;
+}
+.container-banner{
+  height: 100%;
 }
