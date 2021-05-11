@@ -455,7 +455,11 @@ margin-top: 10px;
 
 }
 @media screen and (max-width:480px){
-
+  .card {
+    width: 99%;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
 
   .card-3{
     height: 320px;
