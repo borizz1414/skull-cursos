@@ -67,10 +67,7 @@ input[type="text"] {
 }
 /* CONFIRM EMAIL STYLES */
 .card-confirm-email {
-    height: 80%;
-    width: 80%;
-    overflow: hidden;
-    overflow: scroll;
+  height: 661px;
 }
 .btn-ws {
   background: #52c139;
@@ -333,6 +330,21 @@ margin-top: 10px;
   margin-right: 6px;
 }
 /* MEDIA QUERIES */   
+@media screen and (max-height:768px){
+  .card {
+    /* width: 96%;
+    height: 60%;
+
+    overflow-y: scroll; */
+    overflow: hidden;
+  }
+  .card-confirm-email {
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+}
 @media screen and (max-width:1162px){
   .container-banner > .text-banner, .container-banner > .img-banner {
     width: 70%;
@@ -352,6 +364,18 @@ margin-top: 10px;
 }
 }
 @media screen and (max-width:768px){
+  .card {
+    width: 90%;
+    height: 60%;
+    overflow: hidden;
+    /* overflow-y: scroll; */
+  }
+  .card-confirm-email {
+    width: 99%;
+    height: 80%;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
 .text-comunidad{
   width: 90%;
 }
@@ -431,13 +455,8 @@ margin-top: 10px;
 
 }
 @media screen and (max-width:480px){
-  .card {
-    height:60%;
-    width: 99%;
-  }
-  .card-confirm-email {
-    width: 99%;
-}
+
+
   .card-3{
     height: 320px;
   }
