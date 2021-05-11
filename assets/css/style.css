@@ -67,7 +67,10 @@ input[type="text"] {
 }
 /* CONFIRM EMAIL STYLES */
 .card-confirm-email {
-  height: 661px;
+    height: 80%;
+    width: 80%;
+    overflow: hidden;
+    overflow: scroll;
 }
 .btn-ws {
   background: #52c139;
@@ -428,6 +431,13 @@ margin-top: 10px;
 
 }
 @media screen and (max-width:480px){
+  .card {
+    height:60%;
+    width: 99%;
+  }
+  .card-confirm-email {
+    width: 99%;
+}
   .card-3{
     height: 320px;
   }
