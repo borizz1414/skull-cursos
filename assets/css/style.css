@@ -91,8 +91,8 @@ input[type="text"] {
 .container-inicio {
   height:100% ;
 }
-.container-background {
-  height: 88%;
+.container-figure {
+  background-image: url("../img/background.svg");
   background-size: cover;
 }
 .container-header{
@@ -203,6 +203,9 @@ input[type="text"] {
 .text-comunidad>p{
   font-family: 'lato';
 }
+.container-cards-thanks{
+  max-width: 1200px;
+}
 ul {
   margin-top: 8px;
   line-height: 30px;
@@ -295,7 +298,7 @@ footer{
   height: 140px;
 }
 .card-social-network{
-  padding: 20px;
+  padding: 14px;
   height: 160px;
 margin-top: 10px;
 }
@@ -326,12 +329,29 @@ margin-top: 10px;
 .follow-me>img{
   margin-right: 6px;
 }
+.header-thank-you{
+  background:#0581c6;
+  height: 400px;
+}
+
+.thank-text-banner{
+  width: 80% !important;
+}
+#img-liberty-thank{
+  width: 460px;
+  height: 400px;
+}
 /* MEDIA QUERIES */   
+@media screen and (max-height:1366px) and (max-width:1024px){
+  .footer-thank{
+    position: absolute !important;
+  }
+}
 @media screen and (max-height:768px){
   .card-confirm-email {
     height: max-content;
     margin-top: 20px;
-  }
+  }  
 }
 @media screen and (max-width:1024px){
   .container-banner > .text-banner, .container-banner > .img-banner {
@@ -350,12 +370,19 @@ margin-top: 10px;
   flex: 0 0 100%;
   max-width: 100%;
 }
+
  
 }
 @media screen and (max-width:991px){
+  .footer-thank{
+    position: relative !important;
+      }
   .col-lg-7 {
     flex: 0 0 100%;
     max-width: 100%;
+}
+.header-thank-you{
+  height: max-content;
 }
   .card-inicio {
     height: max-content;
@@ -377,6 +404,10 @@ margin-top: 10px;
 }
 }
 @media screen and (max-width:768px){
+  #img-liberty-thank {
+    width: 360px;
+    height: 300px;
+  }
   .img-liberty{
     display: block;
   }
@@ -466,6 +497,9 @@ margin-top: 10px;
   .container-main{
     height: 100vh !important;
   }
+  .container-thank-you{
+    /* height: 200px !important; */
+  }
  
 }
 @media screen and (max-width:480px){
@@ -549,6 +583,7 @@ margin-top: 10px;
 #title-confirm-email{
   font-size: 28px;
 }
+
 }
 /* IPHONE 5 */
 @media screen and (max-width:320px){
