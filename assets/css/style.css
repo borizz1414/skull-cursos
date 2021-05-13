@@ -30,13 +30,26 @@ input[type="text"] {
 .container-cards-inicio{
     max-width: 1400px;
 }
+.body-confirm{
+  background:#0581c6;
+}
 
-.container-main, .container-matriculas{
+.logo-skull-confirm{
+  position: absolute;
+    bottom: 0;
+    /* margin: 0 auto; */
+    right: 45%;
+    margin-bottom: 4px;
+}
+.container-main, .container-matriculas, .container-confirm{
   width: 100%;
   height: 100%;
   background-image: url("../img/background.svg");
   background-size: cover;
   background-color: #0581c6;
+}
+.container-confirm{
+  height: max-content;
 }
 .title > h1 {
   color: #fcaa24;
@@ -352,8 +365,15 @@ margin-top: 10px;
     height: max-content;
     margin-top: 20px;
   }  
+
+  
+.logo-skull-confirm{
+  position: inherit;
 }
 @media screen and (max-width:1024px){
+  .container-confirm{
+    height: max-content;
+  }
   .container-banner > .text-banner, .container-banner > .img-banner {
     width: 98%;
 
@@ -404,6 +424,11 @@ margin-top: 10px;
 }
 }
 @media screen and (max-width:768px){
+  
+  .container-confirm{
+    height: max-content;
+  }
+
   #img-liberty-thank {
     width: 360px;
     height: 300px;
@@ -586,6 +611,7 @@ margin-top: 10px;
 
 }
 /* IPHONE 5 */
+}
 @media screen and (max-width:320px){
   
   #text-lg{
